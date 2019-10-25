@@ -5,9 +5,9 @@ import { RoutesInicial, RoutesContato, RoutesQuemSomos } from './paginas/paginas
 
  export const rotas = [
   { 
-    path: 'index', 
+    path: '', 
     pathMatch: 'full', 
-    redirectTo: 'inicio' 
+    redirectTo: '/inicio' 
   },
   ...RoutesInicial,
   ...RoutesContato,
