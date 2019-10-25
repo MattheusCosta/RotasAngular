@@ -7,7 +7,7 @@ import { RoutesInicial, RoutesContato, RoutesQuemSomos } from './paginas/paginas
   { 
     path: 'index', 
     pathMatch: 'full', 
-    redirectTo: 'localhost:4200' 
+    redirectTo: 'inicio' 
   },
   ...RoutesInicial,
   ...RoutesContato,
